@@ -1,0 +1,1 @@
+import{z as e,Q as c,S as u}from"./index-DHNHZu9S.js";const f=({fallback:t,redirect:o})=>t!==void 0?e(t,{}):e(u,{to:o?c[o]:"/",replace:!0}),l=t=>typeof t=="function"?t():t,s=({component:t,fallback:o,redirect:a,condition:r=!1})=>l(r)?e(t,{}):e(f,{fallback:o,redirect:a});s.defaultProps={condition:!1};const p=s;export{p as default};
